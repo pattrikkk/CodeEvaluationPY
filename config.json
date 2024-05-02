@@ -1,0 +1,26 @@
+{
+  "testcases": {
+    "TestCase1": {
+      "constructor": ["iX10", "iN10", "sHello"],
+      "methods": [
+        {"method": "add"},
+        {"method": "subtract"},
+        {"method": "multiply"},
+        {"method": "divide"},
+        {"method": "concat_strings", "parameters": ["s World"]},
+        {"method": "count_characters"}
+      ]
+    },
+    "TestCase2": {
+      "constructor": ["iI5,10", "iZ", "eStrings"],
+      "methods": [
+        {"method": "add"},
+        {"method": "subtract"},
+        {"method": "multiply"},
+        {"method": "concat_strings", "parameters": ["eStrings"]},
+        {"method": "count_characters"}
+      ]
+    }
+  },
+  "Strings": ["Hello", "World", "Hi", "Rocks!"]
+}
